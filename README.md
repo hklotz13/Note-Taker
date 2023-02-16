@@ -1,5 +1,7 @@
 # 11 Express.js: Note Taker
 
+![Screenshot](Assets/screenshot.png)
+
 ## Description
 
 This application is used to create notes, save them, and delete them. These notes can be accessed from any computer, as they are saved to a database.
