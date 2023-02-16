@@ -11,6 +11,7 @@ app.use(express.json());
 app.use(express.static('public'));
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
+app.use('/api', noteRoutes);
 
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`)
